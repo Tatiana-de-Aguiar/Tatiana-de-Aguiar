@@ -14,7 +14,7 @@ Currently, I am the lead engineer behind the development of a proprietary **3D C
 
 > 🔒 *Note: This project's repository is private as it contains proprietary clinical and architectural intellectual property.*
 
-> 🎥 **[Click here to watch the technical and clinical demonstration on my LinkedIn]: https://www.linkedin.com/posts/tatianadeaguiar_fullstackengineer-spatialintelligence-clinicalsoftware-ugcPost-7441929233200844800-kNBD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACwuJYwBrVjufOlAS3nH3ty2sGchCAKk3Hk)**
+> 🎥 **[Click here to watch the technical and clinical demonstration on my LinkedIn](https://www.linkedin.com/posts/tatianadeaguiar_fullstackengineer-spatialintelligence-clinicalsoftware-ugcPost-7441929233200844800-kNBD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACwuJYwBrVjufOlAS3nH3ty2sGchCAKk3Hk)**
 
 ### The Business and Clinical Challenge
 Healthcare professionals visualize the human body in 3D but traditionally record data in 2D. The challenge was to build a clinical precision tool, not just a visual model, that serves as an "interactive map" for therapeutic point mapping, postural analysis, and clinical dossier organization, all rendered natively in the browser without performance loss.
@@ -49,7 +49,11 @@ Healthcare professionals visualize the human body in 3D but traditionally record
 
 ---
 
+---
+
 ### 📬 Let's Connect
 
 Always open to discussing software architecture, WebGL innovations, and how 3D technology can transform products.
-* [LinkedIn]: https://www.linkedin.com/in/tatianadeaguiar/?locale=en-US
+
+* **LinkedIn:** [linkedin.com/in/tatianadeaguiar](https://www.linkedin.com/in/tatianadeaguiar/?locale=en-US)
+* **Demo Video:** [Watch the 3D Clinical Ecosystem in action](https://www.linkedin.com/posts/tatianadeaguiar_fullstackengineer-spatialintelligence-clinicalsoftware-ugcPost-7441929233200844800-kNBD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACwuJYwBrVjufOlAS3nH3ty2sGchCAKk3Hk)
