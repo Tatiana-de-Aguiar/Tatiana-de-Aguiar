@@ -8,7 +8,7 @@ I operate at the intersection of **Software Engineering and Product Vision**, ma
 
 ---
 
-## 🔬 Project Spotlight: 3D Interactive Clinical Ecosystem
+## :pushpin: Project Spotlight: 3D Interactive Clinical Ecosystem
 
 Currently, I am the lead engineer behind the development of a proprietary **3D Clinical Ecosystem**, focused on elevating the standard of diagnosis and care for Massage Therapy, Acupuncture, and Chiropractic professionals.
 
@@ -27,7 +27,7 @@ Healthcare professionals visualize the human body in 3D but traditionally record
 
 ---
 
-## 🛠️ Tech Stack & Expertise
+## :hammer: Tech Stack & Expertise
 
 ### Core 3D & WebGL
 * **Three.js & React Three Fiber (R3F):** Scene Graph manipulation, PBR Materials, Lighting, Tone Mapping.
