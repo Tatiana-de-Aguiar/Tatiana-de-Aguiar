@@ -1,56 +1,56 @@
-# Olá, eu sou Tatiana de Aguiar 👋
+# Hi, I'm Tatiana de Aguiar 👋
 
 **Senior Fullstack Engineer | 3D Graphics Specialist | Product Engineer**
 
-Não escrevo apenas código; eu construo produtos que resolvem problemas reais. Minha especialidade é unir matemática computacional, renderização 3D de alta performance e arquitetura web escalável para criar ecossistemas interativos complexos. 
+I don’t just write code; I build products that solve real-world problems. My expertise lies in uniting computational mathematics, high-performance 3D rendering, and scalable web architecture to create complex interactive ecosystems.
 
-Atuo na interseção entre **Engenharia de Software e Visão de Produto**, tomando decisões arquiteturais que priorizam a eficiência da aplicação, a experiência do usuário e o valor entregue ao negócio.
-
----
-
-## 🔬 Projeto em Destaque: Ecossistema Clínico Interativo 3D
-
-Atualmente, sou a engenheira líder por trás do desenvolvimento de um **Ecossistema Clínico 3D** proprietário, focado em elevar o padrão de diagnóstico e atendimento para profissionais de Massoterapia, Acupuntura e Quiropraxia.
-
-> 🔒 *Nota: O repositório deste projeto é privado por conter propriedade intelectual clínica e arquitetural.*
-> 
-> 🎥 **[Clique aqui para assistir à demonstração técnica e clínica no meu LinkedIn] (Link_do_Video_Aqui)**
-
-### O Desafio de Negócio e Clínico
-Profissionais de saúde visualizam o corpo humano em 3D, mas registram dados em 2D. O desafio foi construir uma ferramenta de precisão clínica — não apenas um modelo visual — que servisse como um "mapa interativo" para mapeamento de pontos terapêuticos, análise postural e estruturação de dossiês de saúde visual, tudo renderizado nativamente no navegador sem perda de performance.
-
-### Soluções de Engenharia e Tomada de Decisão (CTO View)
-
-* **Matemática Computacional e Raycasting Espacial:** Desenvolvi um sistema de precisão baseado em cálculo espacial (conversão `worldToLocal`) e interseção vetorial. Isso permite o clique e registro cirúrgico de pontos de acupuntura e gatilhos musculares na malha 3D, mantendo a precisão das coordenadas independentemente da rotação da câmera ou zoom.
-* **Performance 3D e PBR no Navegador (Smart Shading):** Para evitar o carregamento de texturas massivas que destruiriam a retenção do usuário (UX), projetei um motor de "Smart Shading" via código. Utilizando React Three Fiber e shaders baseados em física (PBR), o sistema injeta cores dinâmicas e cálculos de rugosidade (`roughness`/`metalness`) em tempo real, entregando tecido orgânico e fisiologicamente realista com frações do custo de memória.
-* **Arquitetura de Dados Fortemente Tipada:** Estruturei o ecossistema com TypeScript rigoroso. Cada osso, músculo ou nervo não é apenas uma malha (mesh), mas uma entidade de dados rastreável. Isso permite associar lateralidade, patologias e histórico clínico diretamente à geometria 3D de forma escalável.
+I operate at the intersection of **Software Engineering and Product Vision**, making architectural decisions that prioritize application efficiency, user experience, and business value.
 
 ---
 
-## 🛠️ Stack Tecnológica & Especialidades
+## 🔬 Project Spotlight: 3D Interactive Clinical Ecosystem
+
+Currently, I am the lead engineer behind the development of a proprietary **3D Clinical Ecosystem**, focused on elevating the standard of diagnosis and care for Massage Therapy, Acupuncture, and Chiropractic professionals.
+
+> 🔒 *Note: This project's repository is private as it contains proprietary clinical and architectural intellectual property.*
+
+> 🎥 **[Click here to watch the technical and clinical demonstration on my LinkedIn]: https://www.linkedin.com/posts/tatianadeaguiar_fullstackengineer-spatialintelligence-clinicalsoftware-ugcPost-7441929233200844800-kNBD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACwuJYwBrVjufOlAS3nH3ty2sGchCAKk3Hk)**
+
+### The Business and Clinical Challenge
+Healthcare professionals visualize the human body in 3D but traditionally record data in 2D. The challenge was to build a clinical precision tool—not just a visual model—that serves as an "interactive map" for therapeutic point mapping, postural analysis, and clinical dossier organization, all rendered natively in the browser without performance loss.
+
+### Engineering Solutions & Decision Making (CTO View)
+
+* **Computational Mathematics & Spatial Raycasting:** I developed a precision system based on spatial calculation (转换 `worldToLocal`) and vector intersection. This allows for the surgical clicking and recording of acupuncture points and trigger points directly on the 3D mesh, maintaining coordinate accuracy regardless of camera rotation or zoom level.
+* **Targeted Rendering & Smart Shading:** To ensure near-instant browser loading, I eliminated the use of traditional massive textures. I designed a code-based "Smart Shading" engine (React Three Fiber + PBR) that focuses processing power on the structural sharpness of bones and nerves. This architectural decision creates high visual contrast between the skeletal/nervous systems (rendered with high-quality light physics) and soft tissues (kept schematic). The result is a clinical interface where critical areas for chiropractic adjustments and nerve mapping stand out, delivering diagnostic clarity at a fraction of the memory cost.
+* **Strongly Typed Data Architecture:** I structured the ecosystem using rigorous TypeScript. Every bone, muscle, or nerve is not just a mesh, but a trackable data entity. This allows for associating laterality, pathologies, and clinical history directly with 3D geometry in a scalable manner.
+
+---
+
+## 🛠️ Tech Stack & Expertise
 
 ### Core 3D & WebGL
-* **Three.js & React Three Fiber (R3F):** Manipulação de Scene Graph, PBR Materials, Lighting, Tone Mapping.
-* **Matemática 3D:** Álgebra linear aplicada, matrizes de transformação, quaternions, raycasting.
-* **Otimização de Assets:** Gestão de pipeline GLB/GLTF, compressão de geometria, vertex colors.
+* **Three.js & React Three Fiber (R3F):** Scene Graph manipulation, PBR Materials, Lighting, Tone Mapping.
+* **3D Mathematics:** Applied linear algebra, transformation matrices, quaternions, raycasting.
+* **Asset Optimization:** GLB/GLTF pipeline management, geometry compression, vertex colors.
 
-### Fullstack & Arquitetura
-* **Frontend:** React, TypeScript, gerenciamento de estado complexo acoplado ao canvas 3D.
-* **Backend:** Node.js, construção de APIs para persistência de dados espaciais e clínicos.
-* **Práticas:** Clean Architecture, Code as Design, Performance Profiling.
-
----
-
-## 💡 Filosofia de Engenharia
-
-1.  **Ferramentas devem ser invisíveis:** O usuário (médico/terapeuta) deve focar no paciente, não na interface. Reduzo a fricção através de UX fluida e interações nativas.
-2.  **O Código trabalha para o Produto:** Uma arquitetura complexa só faz sentido se gerar utilidade real. Troco "overengineering" por soluções eficientes que entregam o ROI esperado.
-3.  **Precisão é inegociável:** Em contextos de saúde, a exatidão da informação visual e do armazenamento de dados dita a autoridade da ferramenta.
+### Fullstack & Architecture
+* **Frontend:** React, TypeScript, complex state management coupled with the 3D canvas.
+* **Backend:** Node.js, API construction for spatial and clinical data persistence.
+* **Practices:** Clean Architecture, Code as Design, Performance Profiling.
 
 ---
 
-### 📬 Vamos conectar?
+## 💡 Engineering Philosophy
 
-Sempre aberta a discutir arquitetura de software, inovações em WebGL e como a tecnologia 3D pode transformar produtos.
+1. **Tools should be invisible:** The user (clinician/therapist) should focus on the patient, not the interface. I reduce friction through fluid UX and native interactions.
+2. **Code works for the Product:** A complex architecture only makes sense if it generates real utility. I trade "overengineering" for efficient solutions that deliver the expected ROI.
+3. **Precision is non-negotiable:** In healthcare contexts, the accuracy of visual information and data storage dictates the tool's authority.
 
-* [LinkedIn](Seu_Link_Aqui)
+---
+
+### 📬 Let's Connect
+
+Always open to discussing software architecture, WebGL innovations, and how 3D technology can transform products.
+
+* [LinkedIn]: https://www.linkedin.com/in/tatianadeaguiar/?locale=en-US
