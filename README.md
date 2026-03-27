@@ -17,11 +17,11 @@ Currently, I am the lead engineer behind the development of a proprietary **3D C
 > 🎥 **[Click here to watch the technical and clinical demonstration on my LinkedIn]: https://www.linkedin.com/posts/tatianadeaguiar_fullstackengineer-spatialintelligence-clinicalsoftware-ugcPost-7441929233200844800-kNBD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACwuJYwBrVjufOlAS3nH3ty2sGchCAKk3Hk)**
 
 ### The Business and Clinical Challenge
-Healthcare professionals visualize the human body in 3D but traditionally record data in 2D. The challenge was to build a clinical precision tool—not just a visual model—that serves as an "interactive map" for therapeutic point mapping, postural analysis, and clinical dossier organization, all rendered natively in the browser without performance loss.
+Healthcare professionals visualize the human body in 3D but traditionally record data in 2D. The challenge was to build a clinical precision tool, not just a visual model, that serves as an "interactive map" for therapeutic point mapping, postural analysis, and clinical dossier organization, all rendered natively in the browser without performance loss.
 
 ### Engineering Solutions & Decision Making (CTO View)
 
-* **Computational Mathematics & Spatial Raycasting:** I developed a precision system based on spatial calculation (转换 `worldToLocal`) and vector intersection. This allows for the surgical clicking and recording of acupuncture points and trigger points directly on the 3D mesh, maintaining coordinate accuracy regardless of camera rotation or zoom level.
+* **Computational Mathematics & Spatial Raycasting:** I developed a precision system based on spatial calculation (via worldToLocal) and vector intersection. This allows for the surgical clicking and recording of acupuncture points and trigger points directly on the 3D mesh, maintaining coordinate accuracy regardless of camera rotation or zoom level.
 * **Targeted Rendering & Smart Shading:** To ensure near-instant browser loading, I eliminated the use of traditional massive textures. I designed a code-based "Smart Shading" engine (React Three Fiber + PBR) that focuses processing power on the structural sharpness of bones and nerves. This architectural decision creates high visual contrast between the skeletal/nervous systems (rendered with high-quality light physics) and soft tissues (kept schematic). The result is a clinical interface where critical areas for chiropractic adjustments and nerve mapping stand out, delivering diagnostic clarity at a fraction of the memory cost.
 * **Strongly Typed Data Architecture:** I structured the ecosystem using rigorous TypeScript. Every bone, muscle, or nerve is not just a mesh, but a trackable data entity. This allows for associating laterality, pathologies, and clinical history directly with 3D geometry in a scalable manner.
 
@@ -52,5 +52,4 @@ Healthcare professionals visualize the human body in 3D but traditionally record
 ### 📬 Let's Connect
 
 Always open to discussing software architecture, WebGL innovations, and how 3D technology can transform products.
-
 * [LinkedIn]: https://www.linkedin.com/in/tatianadeaguiar/?locale=en-US
