@@ -1,6 +1,6 @@
 # Hi, I'm Tatiana de Aguiar 👋
 
-**Senior Fullstack Engineer | 3D Graphics Specialist | Product Engineer**
+**Senior Fullstack Engineer**
 
 I don’t just write code; I build products that solve real-world problems. My expertise lies in uniting computational mathematics, high-performance 3D rendering, and scalable web architecture to create complex interactive ecosystems.
 
